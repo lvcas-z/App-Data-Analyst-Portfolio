@@ -1,9 +1,11 @@
-import { Footprints, MapPin, Store } from 'lucide-react'
+import { Footprints, MapPin, Store,ChartColumnIncreasing,ChartPie } from 'lucide-react'
 
 const highlightIcons = {
     store: Store,
     shoe: Footprints,
-    location: MapPin
+    location: MapPin,
+    chartIncrease:ChartColumnIncreasing,
+    chartPie:ChartPie
 }
 
 export default function HighlightCard({ item }) {

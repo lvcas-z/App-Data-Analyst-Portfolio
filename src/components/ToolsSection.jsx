@@ -1,4 +1,4 @@
-import { tools } from '../data/tools'
+import tools from '../data/tools'
 
 export default function ToolsSection() {
     return (
@@ -8,13 +8,21 @@ export default function ToolsSection() {
             </div>
 
             <div className="tool-grid">
-                {tools.map(tool => (
-                    <div className="tool" key={tool.id}>
-                        <span>{tool.number}</span>
-                        <h3>{tool.name}</h3>
-                        <p>{tool.description}</p>
-                    </div>
-                ))}
+                {tools.map(tool => {
+                    const Icon = tool.icon
+
+                    return (
+                        <div className="tool" key={tool.id}>
+
+                            <div className="tool-title">
+                                <Icon className="tool-icon" />
+                                <h3>{tool.name}</h3>
+                            </div>
+
+                            <p>{tool.description}</p>
+                        </div>
+                    )
+                })}
             </div>
         </section>
     )

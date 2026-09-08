@@ -2,14 +2,13 @@ import { ArrowUpRight } from 'lucide-react'
 
 export default function AboutSection() {
     return (
-        <section className="intro section" id="sobre-mi">
+        <section className="intro section" id="about">
             <div className="section-label">
                 01 / ABOUT
             </div>
 
             <div className="intro-copy">
                 <p className="large-copy">
-                    Analista Programador orientado al análisis de datos.
                     Mi objetivo es transformar datos en información clara, encontrar patrones y generar insights que ayuden a tomar mejores decisiones.
                 </p>
 
