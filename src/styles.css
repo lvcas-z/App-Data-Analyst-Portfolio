@@ -405,6 +405,23 @@ button:hover,
     transition: .5s;
 }
 
+.coming-soon {
+    cursor: default;
+}
+
+.coming-soon .project-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coming-soon-label {
+    font: 11px 'DM Mono';
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    color: var(--muted);
+}
+
 .project-card:hover img {
     transform: scale(1.04);
     filter: saturate(1);

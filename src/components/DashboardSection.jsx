@@ -12,8 +12,7 @@ export default function DashboardSection({ project }) {
             </div>
 
             <p className="section-intro">
-                Vistas principales del dashboard y las preguntas
-                que ayudan a responder.
+                Vistas principales del dashboard.
             </p>
 
             <div className="dashboard-list">
