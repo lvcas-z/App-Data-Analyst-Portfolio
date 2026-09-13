@@ -6,7 +6,6 @@ import ObjectiveSection from '../components/ObjectiveSection'
 import DashboardSection from '../components/DashboardSection'
 import HighlightsSection from '../components/HighlightsSection'
 import ConclusionSection from '../components/ConclusionSection'
-import DocumentationSection from '../components/DocumentationSection'
 import Footer from '../components/Footer'
 import NotFound from './NotFound'
 
@@ -31,8 +30,6 @@ export default function Detail() {
                 <HighlightsSection project={project} />
 
                 <ConclusionSection project={project} />
-
-                <DocumentationSection project={project} />
             </main>
 
             <Footer />

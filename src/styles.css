@@ -468,7 +468,22 @@ button:hover,
     border: 1px solid var(--line);
     padding: 5px 7px;
 }
+.tool-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+    border: 1px solid var(--line);
+    padding: 15px 20px;
+    font: 13px 'DM Mono';
+    text-transform: uppercase;
+    letter-spacing: .06em;
+}
 
+.tool-tag-icon {
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+}
 
 /* =========================================================
    CONTACTO
@@ -594,19 +609,20 @@ footer a {
 }
 
 .detail-body {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
     margin-top: 42px;
 }
 
 .detail-side {
-    border-left: 1px solid var(--line);
-    padding-left: 32px;
+    border-left: 0;
+    border-top: 1px solid var(--line);
+    padding: 28px 0 0;
 }
 
 .detail-side .tags {
-    margin: 25px 0;
+    margin: 18px 0 0;
 }
 
 
@@ -875,31 +891,14 @@ footer a {
 /* =========================================================
    DOCUMENTACIÓN
    ========================================================= */
-
-.documentation {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.documentation-btn {
+    margin-top: 30px;
+    width: fit-content;
 }
 
-.doc-list {
-    max-width: 650px;
-    margin-top: 34px;
-}
-
-.doc-list>div {
-    display: flex;
-    justify-content: space-between;
-    padding: 18px 0;
-    border-top: 1px solid var(--line);
-    font-size: 14px;
-}
-
-.doc-list svg {
+.documentation-btn svg {
     width: 16px;
-    color: var(--accent);
 }
-
 
 /* =========================================================
    GALERÍA / IMÁGENES DEL DETALLE
