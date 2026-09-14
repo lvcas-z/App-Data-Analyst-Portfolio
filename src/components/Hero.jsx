@@ -26,7 +26,7 @@ export default function Hero() {
 
                     <a
                         className="outline-btn secondary-btn"
-                        href="/cv.pdf"
+                        href="/public/cv/Zelaya-Lucas.pdf"
                         target="_blank"
                         rel="noreferrer"
                     >
